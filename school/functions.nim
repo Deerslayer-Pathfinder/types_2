@@ -1,6 +1,5 @@
 import times
 import re, strutils
-
 import types
 
 proc checkStr[T](data: T): bool =

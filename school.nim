@@ -1,5 +1,4 @@
 ﻿import school/[functions]
-
 when isMainModule:
   initDirector(Director, "Sidorov")
   echo Director

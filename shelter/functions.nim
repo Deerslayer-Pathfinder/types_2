@@ -1,9 +1,6 @@
 ﻿import times
 import re, strutils
-
 import types
-
-
 proc toUnix(date: string): int64 =
   try:
     return date.parse("dd'.'MM'.'YYYY").toTime.toUnix

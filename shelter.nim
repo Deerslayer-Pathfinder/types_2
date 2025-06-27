@@ -1,5 +1,4 @@
 ﻿import shelter/[functions]
-
 when isMainModule:
   initManager(Manager, "Sidorov", "Бухгалтер")
   echo Manager
